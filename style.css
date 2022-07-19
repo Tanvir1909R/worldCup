@@ -67,6 +67,7 @@ nav{
     flex-direction: column;
     border-radius: 10px;
     width: 20%;
+    height: 274px;
 }
 nav a{
     text-decoration: none;
@@ -82,4 +83,12 @@ nav a{
 nav a:nth-child(3){
     background-color: var(--red);
     color: white;
+}
+
+.blog_wrapper{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3, 1fr);
+    column-gap: 20px;
+    row-gap: 25px;
 }
