@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,300&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+:root{
+    --red:rgb(238, 43, 43)
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(243, 239, 239);
+}
+
+/*------------------------------ header section ---------------------------------------- */
+
+.header_wrapper{
+    width: 80%;
+    margin: 60px auto;
+    background-color: black;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 80px;
+}
+.head_text{
+    width: 40%;
+}
+.head_text h1{
+    font-size: 3.5rem;
+    color: white;
+}
+.head_text p{
+    color: #eee;
+    margin: 35px 0;
+}
+.head_text button{
+    padding: 17px 30px;
+    border-radius: 7px;
+    background-color: var(--red);
+    color: white;
+    font-size: 0.9rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.head_img{
+    width: 60%;
+}
+.head_img img{
+    width: 100%;
+}
+
+/*---------------------------------- blog section ------------------------------- */
+
+main{
+    width: 80%;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 20%;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    padding: 20px 40px;
+    background-color: white;
+    width: 205px;
+    border-radius: 9px;
+    text-align: center;
+    margin: 10px 0px;
+    font-weight: 400;
+}
+nav a:nth-child(3){
+    background-color: var(--red);
+    color: white;
+}
