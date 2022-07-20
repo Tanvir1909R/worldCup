@@ -86,9 +86,13 @@ nav a:hover {
   background-color: var(--red);
   color: white;
 }
-nav a:nth-child(3) {
-  background-color: var(--red);
-  color: white;
+.active{
+    background-color: var(--red);
+    color: white;
+}
+.deactive{
+    background-color: white;
+    color: black;
 }
 
 .blog_wrapper {
